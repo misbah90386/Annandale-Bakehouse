@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Poppins", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* Artistic Flair Color Palette Configuration */
+  --color-brand-cream: #F7F3F0;
+  --color-brand-sand: #E8E1DA;
+  --color-brand-wood: #D2B48C;
+  --color-brand-brown: #4A3A2C;
+  --color-brand-dark-brown: #3D2B1F;
+  --color-brand-sage: #7D8E7A;
+  --color-brand-sage-dark: #647561;
+  --color-brand-gold: #C5A059;
+  --color-brand-gold-dark: #A98543;
+}
+
+/* Custom classes for Artistic Flair design theme */
+.card-shadow {
+  box-shadow: 0 10px 30px -15px rgba(61, 43, 31, 0.1);
+}
+
+.hero-image-curve {
+  border-radius: 40px 40px 400px 40px;
+}
+
+/* Custom scrollbar and smooth scroll */
+html {
+  scroll-behavior: smooth;
+  background-color: #F7F3F0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F3F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D2B48C;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7D8E7A;
+}
+

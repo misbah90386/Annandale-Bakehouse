@@ -1,0 +1,6 @@
+{
+  "name": "Annandale Bakehouse",
+  "description": "Artisan bakery and café in Annandale, NSW. Freshly baked bread, handcrafted pastries, gourmet pies, and specialty coffee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
